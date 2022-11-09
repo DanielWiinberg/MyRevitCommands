@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			BCE2D78F-06AD-42C3-9DBA-87F9E178207A
+		</AddInId>
+		<FullClassName>MyRevitCommands.GetElementId</FullClassName>
+		<Text>GetElementId</Text>
+		<Description>Get the ID from an element</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			3675A316-F413-43E2-911A-7AA91CF50DAE
+		</AddInId>
+		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
+		<Text>CollectWindows</Text>
+		<Description>Collect all windows from a project</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			D0B8F37C-CA02-46CF-98BA-BCF08A75DAAC
+		</AddInId>
+		<FullClassName>MyRevitCommands.DeleteElement</FullClassName>
+		<Text>DeleteElement</Text>
+		<Description>Deletes an element</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			E0C2E55F-02F3-4F1E-9A1E-9A53A86C7A61
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceFamily</FullClassName>
+		<Text>PlaceFamily</Text>
+		<Description>Places a family</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			0FD04804-CC06-4A04-B389-AFCE3B17AB04
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLineElement</FullClassName>
+		<Text>PlaceLineElement</Text>
+		<Description>Places walls on lines</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			75AB4019-2A40-44C0-B4E7-F4A1BF089C39
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLoopElement</FullClassName>
+		<Text>PlaceLoopElement</Text>
+		<Description>Creates floor on walls</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			608E397D-E029-4012-95CB-D1876CC1D614
+		</AddInId>
+		<FullClassName>MyRevitCommands.GetParameter</FullClassName>
+		<Text>GetParameter</Text>
+		<Description>Get parameters of selected element</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			0E443649-79BB-4934-833C-E866023F4361
+		</AddInId>
+		<FullClassName>MyRevitCommands.SetParameter</FullClassName>
+		<Text>SetParameter</Text>
+		<Description>Set Head Height of selected element</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			E2C9BFF9-D699-4A8F-9935-A0BF69FDA18E
+		</AddInId>
+		<FullClassName>MyRevitCommands.ChangeLocation</FullClassName>
+		<Text>ChangeLocation</Text>
+		<Description>Change location of element</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			9DD8441C-B1E2-4EBE-AD6D-0A79DB6039EC
+		</AddInId>
+		<FullClassName>MyRevitCommands.EditElement</FullClassName>
+		<Text>EditElement</Text>
+		<Description>Translates and rotates an element</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			E40D9230-B304-4F8D-AB28-031CEF37B45C
+		</AddInId>
+		<FullClassName>MyRevitCommands.SelectGeometry</FullClassName>
+		<Text>SelectGeometry</Text>
+		<Description>Calculates and displays area and number of faces for a wall.</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			12E89717-3211-40F2-9567-3726CCD52BF5
+		</AddInId>
+		<FullClassName>MyRevitCommands.ElementIntersection</FullClassName>
+		<Text>ElementIntersection</Text>
+		<Description>Find and intersections between selected column and roof.</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			EFB2C7A1-F14C-4DD5-849C-798A098E2F2E
+		</AddInId>
+		<FullClassName>MyRevitCommands.ProjectRay</FullClassName>
+		<Text>ProjectRay</Text>
+		<Description>Finds distance between elements.</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			31CB98B8-8155-4FAC-99B0-D1F4A61C659A
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlanView</FullClassName>
+		<Text>PlanView</Text>
+		<Description>Creates plan view..</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			321132CF-A1D1-4C62-ADEB-41F26BB517B2
+		</AddInId>
+		<FullClassName>MyRevitCommands.ViewFilter</FullClassName>
+		<Text>ViewFilter</Text>
+		<Description>Adds filter.</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			6BD46EF2-E972-4474-9526-5D6457590F3E
+		</AddInId>
+		<FullClassName>MyRevitCommands.TagView</FullClassName>
+		<Text>TagView</Text>
+		<Description>Adds window and doow tags.</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			039DA1CD-55F0-49B6-96C8-10806E9EEFC7
+		</AddInId>
+		<FullClassName>MyRevitCommands.CreateSheet</FullClassName>
+		<Text>CreateSheet</Text>
+		<Description>Create a sheet.</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			BFD178D2-64E8-4AAD-9F09-1B66456C58C5
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceView</FullClassName>
+		<Text>PlaceView</Text>
+		<Description>Place a view on sheet.</Description>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	
+	<AddIn Type="Application">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			4DA73CF4-2B47-46FC-8482-A06155A021C0
+		</AddInId>
+		<FullClassName>MyRevitCommands.ExternalApplication</FullClassName>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="DBApplication">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			B9B24DC7-E7DF-4990-9F02-F510E3B8CF7B
+		</AddInId>
+		<FullClassName>MyRevitCommands.ExternalDBApplication</FullClassName>
+		<VendorId>DanielWiinberg</VendorId>
+		<VendorDescription>Daniels awesome plugin, yeah boi!!</VendorDescription>
+	</AddIn>
+
+</RevitAddIns>
